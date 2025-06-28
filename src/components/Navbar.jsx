@@ -1,27 +1,48 @@
+import { Link } from "react-scroll";
 function Navbar() {
   return (
     <nav className="bg-black text-white px-6 py-4 flex justify-between items-center sticky top-0 z-50">
       <h1 className="text-2xl font-bold">Rudraksh</h1>
       <ul className="flex gap-6 text-sm">
         <li>
-          <a href="#hero" className="hover:text-gray-300">
+          <Link
+            to="hero"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-gray-300"
+          >
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#about" className="hover:text-gray-300">
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-gray-300"
+          >
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#projects" className="hover:text-gray-300">
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-gray-300"
+          >
             Projects
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#contact" className="hover:text-gray-300">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer hover:text-gray-300"
+          >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
