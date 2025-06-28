@@ -53,6 +53,86 @@ const Projects = () => {
             View Code
           </a>
         </motion.div>
+        <motion.div
+          whileHover={{
+            scale: 1.05,
+            boxShadow: "0px 8px 24px rgba(0,0,0,0.2)",
+          }}
+          whileTap={{ scale: 0.97 }}
+          transition={{ duration: 0.2 }}
+          className="bg-white shadow-lg rounded-lg p-6"
+        >
+          <h3 className="text-xl font-bold mb-2">Todo List</h3>
+          <p className="text-sm text-gray-600">
+            A CRUD-based todo list app using React hooks and local storage.
+          </p>
+          <a
+            href="#"
+            className="text-blue-600 mt-2 inline-block hover:underline"
+          >
+            View Code
+          </a>
+        </motion.div>
+        <motion.div
+          whileHover={{
+            scale: 1.05,
+            boxShadow: "0px 8px 24px rgba(0,0,0,0.2)",
+          }}
+          whileTap={{ scale: 0.97 }}
+          transition={{ duration: 0.2 }}
+          className="bg-white shadow-lg rounded-lg p-6"
+        >
+          <h3 className="text-xl font-bold mb-2">Todo List</h3>
+          <p className="text-sm text-gray-600">
+            A CRUD-based todo list app using React hooks and local storage.
+          </p>
+          <a
+            href="#"
+            className="text-blue-600 mt-2 inline-block hover:underline"
+          >
+            View Code
+          </a>
+        </motion.div>
+        <motion.div
+          whileHover={{
+            scale: 1.05,
+            boxShadow: "0px 8px 24px rgba(0,0,0,0.2)",
+          }}
+          whileTap={{ scale: 0.97 }}
+          transition={{ duration: 0.2 }}
+          className="bg-white shadow-lg rounded-lg p-6"
+        >
+          <h3 className="text-xl font-bold mb-2">Todo List</h3>
+          <p className="text-sm text-gray-600">
+            A CRUD-based todo list app using React hooks and local storage.
+          </p>
+          <a
+            href="#"
+            className="text-blue-600 mt-2 inline-block hover:underline"
+          >
+            View Code
+          </a>
+        </motion.div>
+        <motion.div
+          whileHover={{
+            scale: 1.05,
+            boxShadow: "0px 8px 24px rgba(0,0,0,0.2)",
+          }}
+          whileTap={{ scale: 0.97 }}
+          transition={{ duration: 0.2 }}
+          className="bg-white shadow-lg rounded-lg p-6"
+        >
+          <h3 className="text-xl font-bold mb-2">Todo List</h3>
+          <p className="text-sm text-gray-600">
+            A CRUD-based todo list app using React hooks and local storage.
+          </p>
+          <a
+            href="#"
+            className="text-blue-600 mt-2 inline-block hover:underline"
+          >
+            View Code
+          </a>
+        </motion.div>
       </div>
     </section>
   );
