@@ -27,7 +27,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 bg-white text-black px-6">
+    <section
+      id="contact"
+      className="min-h-screen py-16 bg-white text-black px-6"
+    >
       <h2 className="text-3xl font-semibold text-center mb-6">Contact</h2>
 
       <form
